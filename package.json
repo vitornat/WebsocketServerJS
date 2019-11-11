@@ -1,0 +1,19 @@
+{
+  "name": "wsserver-nodejs-image",
+  "version": "1.0.0",
+  "description": "Websocket server on docker image",
+  "author": "Vitor Nat",
+   "main": "server.js",
+   "scripts":{
+	  "start": "node server.js"
+   },
+  "keywords": [
+    "nodejs",
+    "websocket",
+    "iot"
+  ],
+  "dependencies": {
+    "async-limiter": "^1.0.1",
+    "ws": "^7.2.0"
+  }
+}
